@@ -1,9 +1,11 @@
-import React from 'react'; 
+import React from "react";
 
 const FaqSection = () => {
   return (
     <div className="faq">
-      <h2>Any Questions? <span>FAQ</span></h2>
+      <h2>
+        Any Questions? <span>FAQ</span>
+      </h2>
       <div className="question">
         <h4>How do I start? </h4>
         <div className="answer">
@@ -36,4 +38,4 @@ const FaqSection = () => {
   );
 };
 
-export default FaqSection; 
+export default FaqSection;
